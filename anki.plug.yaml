@@ -1,0 +1,8 @@
+name: anki
+requiredPermissions:
+  - fetch
+functions:
+  ankiUpdate:
+    path: anki.ts:updateAnki
+    command:
+      name: "Update Anki"
